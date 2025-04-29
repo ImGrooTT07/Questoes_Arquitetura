@@ -1,7 +1,7 @@
 public class EmpregadoTeste {
     public static void main(String[] args) {
-        Empregado emp1 = new Empregado("João", "Silva", 3000);
-        Empregado emp2 = new Empregado("Maria", "Oliveira", 4500);
+        Empregado emp1 = new Empregado("Luis", "Silva", 5000);
+        Empregado emp2 = new Empregado("Arthur", "Oliveira", 7500);
 
         CalculadoraSalarioAnual calculadora = new CalculadoraPadraoSalarioAnual();
         AumentoSalarial aumento10 = new AumentoPercentual(10);
